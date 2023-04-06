@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>简历分析网站</title>
+</head>
+
+<body>
+    <header>
+        <h1>简历分析网站</h1>
+    </header>
+    <main>
+        <section>
+            <h2>上传简历文件</h2>
+            <p>请上传一个简历文件（TXT格式）进行分析：</p>
+            <input type="file" id="resumeFile" accept=".txt">
+        </section>
+        <section>
+            <h2>或输入简历内容</h2>
+            <p>在下面的文本框中输入您的简历内容：</p>
+            <textarea id="resumeInput" rows="10" cols="50" placeholder="在这里输入简历内容..."></textarea>
+        </section>
+        <section>
+            <button id="analyzeBtn">开始分析</button>
+        </section>
+        <section>
+             <h2>分析结果</h2>
+            <div id="analysisResult">
+                <p>分析结果将在此处显示。</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 简历分析网站. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+    </body>
+    </html>
+
